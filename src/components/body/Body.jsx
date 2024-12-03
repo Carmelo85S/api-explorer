@@ -54,7 +54,7 @@ const Body = () => {
                         <p>Age: {data.age}</p>
                         </div>
                     ) : (
-                        <p>No data to display</p>
+                        <p>Nothig to display</p>
                     )}
                 </section>
         </section>
