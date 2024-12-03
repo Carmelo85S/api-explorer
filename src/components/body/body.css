@@ -1,0 +1,131 @@
+.body-wrapper{
+    max-width: 1280px;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:auto;
+    margin-top:0px;
+}
+
+.hero-content{
+    max-width: 647px;
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+    margin-top:30px;
+}
+
+.hero-text{
+    max-width: 562px;
+    min-height: auto;
+    width: 100%;
+    margin-bottom:0;
+    font-family: "Passion One", serif;;
+    font-size: 58px;
+    font-weight: 700;
+    background: linear-gradient(to right, #BCD0E8, #3B5A80);  
+    background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #D9D9D9;
+}
+
+.search-bar{
+    max-width: 640px;
+    min-height: 75px;
+    width: 100%;
+    border:1px solid rgba(255, 255, 255, 0.7);
+    border-radius:10px;
+    box-shadow: inset 4px 4px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon{
+     color:white;
+}
+
+input{
+    max-width: 647px;
+    min-height: 60px;
+    width: 100%;
+    background-color: inherit;
+    border:none;
+    color:white;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.searchBtn{
+    padding:22px 50px;
+    border-radius: 10px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border:none;
+    background-color: #618BBF;
+    cursor:pointer;
+}
+
+.searchBtn:hover{
+    background-color: #3b6aa3;
+}
+
+.searchBtn:active{
+    background-color: #5a81b0;
+    transform: scale(0.95);
+}
+.response {
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 550px;
+    min-height: 100px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.del-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: inherit;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+img{
+    width: 700px;
+}
+
+

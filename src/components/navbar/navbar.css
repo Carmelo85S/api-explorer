@@ -1,0 +1,72 @@
+header{
+    max-width: 100vw;
+    min-height: 50px;
+    width: 100%;
+
+}
+.nav-container{
+    max-width: 1280px;
+    min-height: 30px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Passion One", serif;
+    font-weight: 700;
+    font-size:45px;
+    background: linear-gradient(to right, #BCD0E8, #3B5A80);  
+    background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+
+.links-container{
+    max-width: 375px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1px;
+    transition:all 0.3s ease-in;
+}
+
+.link:hover{
+    color: #3B5A80;
+    transform: scale(1.05);
+}
+
+.icons-container {
+    max-width: 130px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.icon{
+    color:white;
+    cursor:pointer;
+}
+
+.icon:hover{
+    color: #3B5A80;
+}
+  
+  
+
+  
