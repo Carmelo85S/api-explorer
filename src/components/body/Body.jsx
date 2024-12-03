@@ -22,6 +22,7 @@ const Body = () => {
 
   const handleDelete = () => {
     setData(null);
+    setSearch('');
   };
 
   return (
